@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//fastly.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('//fastly.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//fastly.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//fastly.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+   
+.myQuestion {
+    width : 80%;
+    margin : 80px auto;
+}
+
+.questionList {
+    font-family: 'LINESeedKR-Bd';
+}
+
+.titleBox {
+    font-family: 'NanumBarunGothic';
+    background-color: gray;
+    padding : 20px;
+    border-bottom: 5px solid black;
+}
+
+.titleBox h1 {
+    text-align: center;
+    color : white;
+    font-size: 35px;
+}
+
+.questionList li {
+    display: flex;
+    
+    line-height: 50px;
+    border-bottom : 2px solid black;
+    cursor: pointer;
+}
+
+.questionList li:last-child {
+    border-bottom : 5px solid black;
+}
+
+.questionList li .number{
+    width : 20%;
+    background-color: grey;
+    color : white;
+    text-align: center;
+}
+
+.questionList li p {
+    width : 80%;
+    background-color: skyblue;
+    text-align: center;
+    font-size: 20px;
+}
